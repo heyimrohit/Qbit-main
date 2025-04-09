@@ -53,8 +53,8 @@ export const navLinks = [
 
 export const headingData = {
   description: 'Where Businesses Go to Go Digital',
-  spanText: "in Today’s Digital World",
-  title: "Building tomorrow’s brands",
+  spanText: 'in Today’s Digital World',
+  title: 'Building tomorrow’s brands',
   subtext:
     'Qbit is a forward-thinking technology company dedicated to building innovative digital solutions that empower businesses and individuals',
 };
