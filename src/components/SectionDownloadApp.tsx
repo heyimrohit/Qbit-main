@@ -18,7 +18,7 @@ const SectionDownloadApp = () => {
           </span>{' '}
           {downloadSectionData.headingEnd}
         </div>
-        <div className="w-[80%] text-sm text-neutral-500">
+        <div className="w-4/5 text-sm text-neutral-500">
           {downloadSectionData.description}
         </div>
         <div className="grid w-full grid-cols-4 divide-x divide-neutral-500 lg:w-[90%]">

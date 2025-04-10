@@ -30,13 +30,13 @@ const ReviewCard: FC<ReviewCardProps> = ({ reviewData }) => {
           key={reviewData.name}
           className="flex cursor-pointer flex-col items-center text-center"
         >
-          <div className="mb-10 h-[100px] w-[100px] overflow-hidden rounded-full">
+          <div className="mb-10 size-[100px] overflow-hidden rounded-full">
             <Image
               width={300}
               height={300}
               src={reviewData.profilePhoto}
               alt="profile"
-              className="mb-10 h-full w-full object-cover"
+              className="mb-10 size-full object-cover"
             />
           </div>
           <span className="block text-2xl font-semibold">
@@ -46,11 +46,11 @@ const ReviewCard: FC<ReviewCardProps> = ({ reviewData }) => {
             {reviewData.occupation}
           </span>
           <div className="mt-3.5 flex items-center space-x-0.5 text-yellow-500">
-            <StarIcon className="h-4 w-4" />
-            <StarIcon className="h-4 w-4" />
-            <StarIcon className="h-4 w-4" />
-            <StarIcon className="h-4 w-4" />
-            <StarIcon className="h-4 w-4" />
+            <StarIcon className="size-4" />
+            <StarIcon className="size-4" />
+            <StarIcon className="size-4" />
+            <StarIcon className="size-4" />
+            <StarIcon className="size-4" />
           </div>
           <span className="mt-5 block">{reviewData.review}</span>
         </div>

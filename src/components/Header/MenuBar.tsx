@@ -56,6 +56,7 @@ const MenuBar: React.FC<MenuBarProps> = () => {
     <>
       <button
         type="button"
+        aria-label="open-menu"
         onClick={handleOpenMenu}
         className="flex items-center justify-center rounded-lg p-2.5 focus:outline-none"
       >

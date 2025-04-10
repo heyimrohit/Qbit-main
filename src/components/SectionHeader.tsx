@@ -19,7 +19,7 @@ const SectionHeader = () => {
             {headingData.description}
           </div>
           <div
-            className="w-[80%] text-3xl font-medium lg:text-5xl"
+            className="w-4/5 text-3xl font-medium lg:text-5xl"
             style={{ lineHeight: '1.2em' }}
           >
             {headingData.title}{' '}
@@ -33,25 +33,25 @@ const SectionHeader = () => {
               <Image
                 src={google}
                 alt="download from google"
-                className="h-full w-full object-cover"
+                className="size-full object-cover"
               />
             </Link>
             <Link href="/#" className="w-[30%]">
               <Image
                 src={appStore}
                 alt="download on appStore"
-                className="h-full w-full object-cover"
+                className="size-full object-cover"
               />
             </Link>
           </div>
           <div className="flex items-center gap-3 pt-3">
             <div className="flex items-center -space-x-2">
               {profilesPhotos.map((profile) => (
-                <div className="h-10 w-10" key={profile}>
+                <div className="size-10" key={profile}>
                   <Image
                     width={300}
                     height={300}
-                    className="h-full w-full rounded-full object-cover object-center"
+                    className="size-full rounded-full object-cover object-center"
                     src={profile}
                     alt="profile"
                   />

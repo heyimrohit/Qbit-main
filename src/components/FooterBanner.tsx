@@ -18,7 +18,7 @@ const FooterBanner = () => {
       >
         {footerBannerData.heading}
       </Heading>
-      <p className="mx-auto w-[80%] text-center md:w-[50%]">
+      <p className="mx-auto w-4/5 text-center md:w-[50%]">
         {footerBannerData.descriptionTwo}
       </p>
       <div className="flex items-center justify-center gap-4 pt-10">
@@ -26,14 +26,14 @@ const FooterBanner = () => {
           <Image
             src={google}
             alt="download from google"
-            className="h-full w-full object-cover"
+            className="size-full object-cover"
           />
         </Link>
         <Link href="/#" className=" w-[30%] md:w-[14%]">
           <Image
             src={appStore}
             alt="download on appStore"
-            className="h-full w-full object-cover"
+            className="size-full object-cover"
           />
         </Link>
       </div>

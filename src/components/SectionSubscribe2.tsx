@@ -101,7 +101,7 @@ const SectionSubscribe2: FC<SectionSubscribe2Props> = ({ className = '' }) => {
             onClick={() => handleSubmit()}
             className="absolute right-1 top-1/2 -translate-y-1/2"
           >
-            <ArrowSmallRightIcon className="h-5 w-5" />
+            <ArrowSmallRightIcon className="size-5" />
           </ButtonCircle>
         </div>
         {error && <p className="ml-2 mt-1 text-xs text-red-500">{error}</p>}

@@ -11,7 +11,7 @@ const SectionDrivers = () => {
   return (
     <div className="container">
       <div className="mb-10 items-end justify-between space-y-5 md:flex md:space-y-0">
-        <Heading desc={driversSectionData.description} className="md:w-[40%]">
+        <Heading desc={driversSectionData.description} className="md:w-2/5">
           {driversSectionData.headingStart}{' '}
           <span className="text-button-primary">
             {driversSectionData.spanText}{' '}
