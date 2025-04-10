@@ -50,7 +50,6 @@ export const navLinks = [
   },
 ];
 
-
 export const headingData = {
   description: 'Where Businesses Go to Go Digital',
   spanText: 'in Today’s Digital World',
